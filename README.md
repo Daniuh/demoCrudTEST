@@ -21,4 +21,5 @@ de github con la solucion.
 
 Función Actualizar:
 
-![](../../../../../Downloads/Captura de pantalla 2022-04-28 015745.png)
+
+![Captura de pantalla 2022-04-28 015745](https://user-images.githubusercontent.com/88155850/165696499-c652e0ef-c511-40aa-ac61-4d1c97635b5c.png)

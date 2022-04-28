@@ -17,3 +17,8 @@ varias ScreenShoot(capturas) de la ejecucion de la API REST.
 
 Debe registrar en la tabla de abajo su nombre completo y su repositorio
 de github con la solucion.
+
+
+Función Actualizar:
+
+![](../../../../../Downloads/Captura de pantalla 2022-04-28 015745.png)

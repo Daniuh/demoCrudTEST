@@ -1,24 +1,27 @@
 package com.crud.democrud.models;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
-@Table(name = "Usuario_Rol")
+@Table(name = "rolUsuario")
 public class UsuarioRolModel {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(unique = true, nullable = false)
     private Long id_Rol;
 
-    private Long id_Usuario;
     private String rol;
 
-    public Long getId_Usuario() {
-        return id_Usuario;
+    //@ManyToMany(mappedBy = "rol-usuario")
+    //private Set<UsuarioModel> usuario;
+
+    public UsuarioRolModel() {
     }
 
-    public void setId_Usuario(Long id_Usuario) {
-        this.id_Usuario = id_Usuario;
+    public UsuarioRolModel(String rol) {
+        this.rol = rol;
     }
 
     public Long getId_Rol() {

@@ -25,7 +25,6 @@ public class UsuarioService {
         return usuarioRepository.findById(id);
     }
 
-
     public ArrayList<UsuarioModel>  obtenerPorPrioridad(Integer prioridad) {
         return usuarioRepository.findByPrioridad(prioridad);
     }
@@ -39,6 +38,7 @@ public class UsuarioService {
         }
     }
 
-
-    
+    public UsuarioModel actualizarUsuario(UsuarioModel usuario){
+        return usuarioRepository.save(usuario);
+    }
 }

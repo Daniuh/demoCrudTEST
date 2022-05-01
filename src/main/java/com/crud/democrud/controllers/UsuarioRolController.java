@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/rolUsuario")
+@RequestMapping("/usuario/rolUsuario")
 public class UsuarioRolController {
     @Autowired
     UsuarioRolService usuarioRolService;

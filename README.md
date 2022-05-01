@@ -36,3 +36,6 @@ Función Eliminar Rol:
 
 ![EliminandoRol](https://user-images.githubusercontent.com/88155850/165776238-9d6e3b1d-eca9-4c2d-9f30-b6839ee5092b.png)
 
+Función de relación entre tablas:
+
+![Relación tablas](https://user-images.githubusercontent.com/88155850/166128338-68a63dbf-5112-4e82-bd10-e73678137d3f.png)

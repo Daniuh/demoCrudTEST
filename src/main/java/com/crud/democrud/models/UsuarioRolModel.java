@@ -25,6 +25,13 @@ public class UsuarioRolModel {
     public UsuarioRolModel() {
     }
 
+    public UsuarioRolModel(Long id_Rol, String rol, Long id_Usuario) {
+        this.id_Rol = id_Rol;
+        this.usuario = usuario;
+        this.rol = rol;
+        this.id_Usuario = id_Usuario;
+    }
+
     public UsuarioRolModel(String rol) {
         this.rol = rol;
     }
